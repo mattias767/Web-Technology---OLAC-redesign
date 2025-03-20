@@ -71,6 +71,12 @@ body.about_page {
 .navigation-bar a:visited {
     color: #FFF;
 }
+.navigation-bar a.active {
+    font-weight: 800;
+}
+.navigation-bar a:hover:not(.active) {
+    font-weight: 700;
+}
 
 .search-navbar {
     position: absolute;
