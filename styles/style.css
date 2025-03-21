@@ -1,27 +1,22 @@
 /* Set the color variables to use in this stylesheet */
 :root {
     --page-background: linear-gradient(160deg, #376DFF 3.32%, #001B65 65.68%, #1E326C 100%);
-    --header-background: linear-gradient(90deg, rgba(55, 109, 255, 0.75) 0.14%, rgba(0, 19, 128, 0.75) 88.03%);;
+    --header-background: linear-gradient(90deg, rgba(55, 109, 255, 0.75) 0.14%, rgba(0, 19, 128, 0.75) 88.03%);
+    --content-box-background: rgba(0, 0, 0, 0.50);
+    --big-text-box-background: linear-gradient(128deg, rgba(0, 5, 74, 0.40) 21.74%, rgba(86, 98, 255, 0.40) 73.51%);
 }
 
 
 /* Define general styling for the whole website, header, main contentand footer */
 body {
     background: var(--page-background);
-    width: 1440px;
+    width: auto;
+    min-height: 100vh;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 20px;
     color: #FFF;
-}
-
-body.home_page {
-    height: 2768px;
-}
-
-body.about_page {
-    height: 1980px;
 }
 
 /* ------begin header------ */
@@ -53,15 +48,16 @@ body.about_page {
 }
 
 .navigation-bar {
-    display: block;
+    display: flex;
+    flex-direction: row;
     position: absolute;
-    left: 680px;
+    right: 17%;
     top: 55px;
 }
 
 .navigation-bar a:link {
-    margin: 0 10px;
-    padding: 5px;
+    margin: 0 5px;
+    padding: 5px 15px;
     color: #FFF;
     font-size: 22px;
     font-weight: 500;
@@ -73,9 +69,15 @@ body.about_page {
 }
 .navigation-bar a.active {
     font-weight: 800;
+    background: white;
+    color: black;
+    border-radius: 15px;
 }
 .navigation-bar a:hover:not(.active) {
     font-weight: 700;
+    background: white;
+    color: black;
+    border-radius: 15px;
 }
 
 .search-navbar {
@@ -95,19 +97,23 @@ body.about_page {
 
 /* ------begin main content------*/
 .main-content {
-    width: 1086px;
     margin: auto;
+    width: 75%;
     margin-top: 140px;
-}
-
-.main-content .wide { /* WERKT NIET GOED (TODO) */
-    width: 1305px;
-    margin: auto;
 }
 /* ------end main content------*/
 
 /* ------begin footer------*/
-
+.footer-homepage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    margin-top: 100px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
 /* ------end footer------*/
 
 
@@ -147,9 +153,29 @@ p {
     line-height: normal;
 }
 
+p.author-text {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .links {
     color: #FFF;
     font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: auto;
+}
+
+.mail-links {
+    color: #FFF;
+    font-size: 18px;
     font-weight: 400;
     line-height: normal;
     text-decoration-line: underline;
@@ -169,9 +195,26 @@ p {
     height: auto;
 }
 
-.text_box {
-    width:50%;
-    line-height: 2;
+.text-box-bg {
+    display: flex;
+    width: 48%;
+    margin: 15px 3px 15px 3px;
+    padding: 10px 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 25px;
+    background: var(--content-box-background);
+}
+
+.text-box {
+    display: flex;
+    width: 48%;
+    padding: 10px 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 25px;
 }
 
 
@@ -191,38 +234,23 @@ p {
 /* Styling Timeline */
 .timeline-wrapper {
     width: 100%;
-    margin: auto;
-    height: 300px;
+    position: relative;
+    height: 150px;
+    background: var(--content-box-background);
+    border-radius: 25px;
 }
 
 
 .middle-line {
-    display: flex;
-    justify-content: space-between;
     width: 100%;
-    height: 5px;
-    background: #d9d9d9;
+    height: 4px;
+    background: #FFF;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
 }
 
-
-.dot {
-    width: 25px;
-    height: 25px;
-    border-radius: 100%;
-    background: #fff;
-    border: 2px solid #d9d9d9;
-}
-
-
-.date {
-    background: green;
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.dot-text {
-    margin: 0;
+.date-container {
+    width: 100%;
+    background-color: green;    
 }
