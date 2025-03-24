@@ -87,7 +87,7 @@ header .logo a:visited {
 
 .search-navbar {
     position: absolute;
-    top: -4.5px;
+    top: 0;
     right: -200px;
 }
 
@@ -104,21 +104,42 @@ header .logo a:visited {
 .main-content {
     margin: auto;
     width: 75%;
+    min-height: 10vh;
     margin-top: 140px;
 }
 /* ------end main content------*/
 
 /* ------begin footer------*/
-.footer-homepage {
+footer.footer-homepage {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 10%;
     margin: 0;
     margin-top: 100px;
     position: relative;
     bottom: 0;
     left: 0;
 }
+
+.footer-documents {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-general-information {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 /* ------end footer------*/
 
 
