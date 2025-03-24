@@ -20,7 +20,7 @@ body {
 }
 
 /* ------begin header------ */
-.header {
+header {
     display: flex;
     position: fixed;
     left: 0;
@@ -32,19 +32,21 @@ body {
     background: var(--header-background);
 }
 
-.header .logo a:link {
+header .logo a:link {
     position: absolute;
     left: 15px;
     top: 10px;
     padding: 10px;
+    cursor: pointer;
     color: #FFF;
     font-size: 57px;
     font-weight: 700;
     line-height: normal;
     text-decoration: none;
 }
-.header .logo a:visited {
+header .logo a:visited {
     color: #FFF;
+    cursor: pointer;
 }
 
 .navigation-bar {
@@ -58,6 +60,7 @@ body {
 .navigation-bar a:link {
     margin: 0 5px;
     padding: 5px 15px;
+    cursor: pointer;
     color: #FFF;
     font-size: 22px;
     font-weight: 500;
@@ -66,6 +69,7 @@ body {
 }
 .navigation-bar a:visited {
     color: #FFF;
+    cursor: pointer;
 }
 .navigation-bar a.active {
     font-weight: 800;
@@ -76,6 +80,7 @@ body {
 .navigation-bar a:hover:not(.active) {
     font-weight: 700;
     background: white;
+    cursor: pointer;
     color: black;
     border-radius: 15px;
 }
@@ -161,6 +166,7 @@ p.author-text {
 }
 
 .links {
+    cursor: pointer;
     color: #FFF;
     font-size: 20px;
     font-weight: 400;
@@ -174,6 +180,7 @@ p.author-text {
 }
 
 .mail-links {
+    cursor: pointer;
     color: #FFF;
     font-size: 18px;
     font-weight: 400;
