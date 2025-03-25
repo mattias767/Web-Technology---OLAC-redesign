@@ -240,6 +240,7 @@ p.author-text {
 }
 
 .links {
+    margin: 0;
     cursor: pointer;
     color: #FFF;
     font-size: 20px;
@@ -318,11 +319,20 @@ p.author-text {
 
 
 /* Styling Home page */
+
+
+/* Styling News page */
+#news-head-text {
+    position: relative;
+    left: 10%;
+}
+
 .news {
+    width: 80%;
     display: grid;
     gap: 0;
     grid-template-columns: 49% 2% 49%;
-    margin: 0;
+    margin: auto;
     padding: 0;
 }
 
@@ -350,9 +360,6 @@ p.author-text {
     margin: 0;
     padding: 0;
 }
-
-/* Styling News page */
-
 
 /* Styling Events page */
 
