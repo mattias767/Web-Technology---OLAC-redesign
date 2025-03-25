@@ -4,6 +4,7 @@
     --header-background: linear-gradient(90deg, rgba(55, 109, 255, 0.75) 0.14%, rgba(0, 19, 128, 0.75) 88.03%);
     --content-box-background: rgba(0, 0, 0, 0.50);
     --big-text-box-background: linear-gradient(128deg, rgba(0, 5, 74, 0.40) 21.74%, rgba(86, 98, 255, 0.40) 73.51%);
+    --browser-theme-color: #001380;
 }
 
 
@@ -11,7 +12,7 @@
 body {
     background: var(--page-background);
     width: auto;
-    min-height: 100vh;
+    min-height: 100%;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -74,14 +75,14 @@ header .logo a:visited {
 .navigation-bar a.active {
     font-weight: 800;
     background: white;
-    color: black;
+    color: var(--browser-theme-color);
     border-radius: 15px;
 }
 .navigation-bar a:hover:not(.active) {
     font-weight: 700;
     background: white;
     cursor: pointer;
-    color: black;
+    color: var(--browser-theme-color);
     border-radius: 15px;
 }
 
@@ -104,19 +105,19 @@ header .logo a:visited {
 .main-content {
     margin: auto;
     width: 75%;
-    min-height: 10vh;
+    min-height: 33vh;
     margin-top: 140px;
 }
 /* ------end main content------*/
 
 /* ------begin footer------*/
-footer.footer-homepage {
+footer .footer-main-content {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 10%;
-    margin: 0;
-    margin-top: 100px;
+    align-items: flex-start;
+    gap: 18%;
+    margin: 100px 0 75px 0;
     position: relative;
     bottom: 0;
     left: 0;
@@ -125,17 +126,25 @@ footer.footer-homepage {
 .footer-documents {
     display: flex;
     flex-direction: column;
+    flex: 0 0 15%;
 }
 
 .footer-general-information {
     display: flex;
     flex-direction: column;
-
+    flex: 0 0 15%;
 }
 
 .footer-contact {
     display: flex;
     flex-direction: column;
+    flex: 0 0 15%;
+}
+
+.homepage-footer-author-text {
+    position: relative;
+    bottom: 0;
+    left: 20px;
 }
 
 
