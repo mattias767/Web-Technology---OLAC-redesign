@@ -207,14 +207,24 @@ h4, h5, h6 {
     line-height: normal;
 }
 
-.hero-text {
+ul, ol {
+    margin: 0;
     color: #FFF;
-    font-size: 55px;
+    font-size: 20px;
     font-weight: 400;
     line-height: normal;
 }
 
+.hero-text {
+    margin: 0;
+    color: #FFF;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: normal;
+}
+
 p {
+    margin: 0;
     color: #FFF;
     font-size: 20px;
     font-weight: 400;
@@ -222,6 +232,7 @@ p {
 }
 
 p.author-text {
+    margin: 0;
     color: #FFF;
     font-size: 12px;
     font-weight: 400;
@@ -256,8 +267,8 @@ p.author-text {
     text-underline-position: auto;
 }
 
-/* Begin styling for the individual pages */
 
+/* Begin styling for the individual pages */
 .normal-container {
     display: flex;
     flex-direction: row;
@@ -297,6 +308,12 @@ p.author-text {
     justify-content: center;
     align-items: flex-start;
     border-radius: 25px;
+}
+
+.image-box {
+    width: 48%;
+    margin: 15px 3px;
+    border-radius: 45px;
 }
 
 
