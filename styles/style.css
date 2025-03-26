@@ -355,12 +355,42 @@ p.author-text {
 }
 
 #find-language-resources h1 {
-    margin: auto;
+    margin: 5% auto 5% auto;
+}
+
+.flr-search-bar-holder {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 95%;
+    margin: 5% auto 2% auto;
+    border-radius: 80px;
+    background: linear-gradient(90deg, #001952 0%, #376DFF 100%);
+}
+
+.flr-search-icon {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border: none;
+    aspect-ratio: 1/1;
+    background: url(/Icons/Search_icon_50x50.png) transparent 50% / cover no-repeat;
 }
 
 .flr-search-bar {
-    width: 90%;
-    margin: auto;
+    margin: 15px;
+    padding-left: 25px;
+    width: 75%;
+    height: 51px;
+    background: #9A9A9A;
+    border: none;
+    border-radius: 65px;
+    font-size: 28px;
+}
+
+.flr-search-bar::placeholder {
+    color: var(--text-color);
+    opacity: 0.9;
 }
 
 /* Styling News page */
