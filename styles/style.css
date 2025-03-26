@@ -14,7 +14,7 @@ body {
     background: var(--page-background);
     width: auto;
     min-height: 100%;
-    font-family: "Outfit", sans-serif;
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 20px;
@@ -280,6 +280,8 @@ p.author-text {
     height: auto;
 }
 
+/* TODO: add @media */
+
 .wide-container {
     display: flex;
     flex-direction: row;
@@ -328,7 +330,27 @@ p.author-text {
     line-height: 2;
 }
 /* Styling Home page */
+#hero-section {
+    margin: 220px auto 80px auto;
+}
 
+#hero-image-library {
+    height: 400px;
+    background: url(/images/library-picture/1722.jpg) lightgray 50% / cover no-repeat;
+}
+
+#hero-section-text {
+    margin: 0 0 0 40px;
+}
+
+#image-world-map {
+    background: url(/images/world-color-320.png) lightgray 50% / cover no-repeat;
+}
+
+#find-language-resources {
+    height: 321px;
+
+}
 
 /* Styling News page */
 #news-head-text {
