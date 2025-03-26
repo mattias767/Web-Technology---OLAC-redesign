@@ -499,19 +499,19 @@ p.author-text {
 }
 
 .filter-options {
-  display: flex;
-  align-items: center; 
-  position: absolute;
-  width: 284px;
-  height: 43px;
-  top: 520px;
-  left: 1000px;
-  background-color: #808080;
-  border-radius: 5px;
-  overflow: hidden;
-  font-size: 20px;
-  justify-content: space-between;
-  padding-left: 12px;
+    display: flex;
+    align-items: center; 
+    position: absolute;
+    width: 284px;
+    height: 43px;
+    top: 520px;
+    left: 1000px;
+    background-color: #808080;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 20px;
+    justify-content: space-between;
+    padding-left: 12px;
 }
 
 .filter-options div {
