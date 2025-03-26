@@ -190,7 +190,8 @@ h1 {
 
 h1.section-head-text {
     position: relative;
-    left: 10%;
+    left: 11.2%;
+    margin: 20px 0 10px 0;
 }
 
 h2 {
@@ -336,6 +337,8 @@ p.author-text {
 .text-box li {
     line-height: 2;
 }
+
+
 /* Styling Home page */
 .hero-section {
     margin: 220px auto 80px auto;
@@ -485,6 +488,7 @@ p.author-text {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
+
 /* Styling News page */
 .news {
     width: 80%;
@@ -521,7 +525,29 @@ p.author-text {
     padding: 0;
 }
 
+
 /* Styling Events page */
+.events-items {
+    margin-bottom: 18px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    margin: 8px 0 18px 0;
+}
+
+.presentations-button {
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 6px 14px;
+    font-size: 18px;
+    color: var(--text-color);
+    border: none;
+    border-radius: 12px;
+    background-color: #2C2C2C;
+}
+
 
 /* Styling Search page */
 .search-container {
@@ -660,6 +686,7 @@ p.author-text {
     padding-right: 10px; 
 }
 
+
 /* Styling Results page */
 .centered-container {
     display: flex;
@@ -769,9 +796,7 @@ p.author-text {
 }
 
 
-
 /* Styling Archives page */
-/* Archives Page Styling - Laptop Only */
 .archives-container {
     width: 90%;
     max-width: 1200px;
@@ -867,8 +892,8 @@ p.author-text {
     white-space: nowrap;
 }
 
-/* Styling About page */
 
+/* Styling About page */
 /* Styling Timeline */
 .timeline-wrapper {
     width: 90%;
@@ -945,7 +970,8 @@ p.author-text {
     height: 20px;
 }
 
-/*Styling Record*/
+
+/* Styling Record */
 .record-container {
     width: 80%;
     display: grid;
