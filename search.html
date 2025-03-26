@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OLAC Search</title>
-    <link rel="stylesheet" href="styles/style.css">
-  </head>
-  <body>
-    <div class="website-container">
-      <!-- Header -->
-      <header>
+    <head>
+        <title>OLAC - Search</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="[DESCRIPTION]">
+        <meta name="author" content="[AUTHOR]">
+        <meta name="theme-color" content="#001380">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Import the "Outfit" font from Google fonts-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap">
+        <link rel="stylesheet" href="/styles/style.css">
+    </head>
+
+    
+    <body class="search_page">
+
+        <!--Create the header and the navigation bar-->
+        <header>
+
             <div class="logo">
-                <a href="/search.html">OLAC</a>
+                <a href="/index.html">OLAC</a>
             </div>
             <div class="navigation-bar">
                 <a href="/index.html">Home</a>
-                <a class="active" href="/">News</a>
+                <a href="/news.html">News</a>
                 <a href="/events.html">Events</a>
                 <a href="/archives.html">Archives</a>
                 <a href="/about.html">About</a>
-
-                <a class="search-navbar" href="/search.html">
-                    <img src="images/search-icon.png" alt="search icon">
+            
+                <a class="search-navbar active" href="/">
+                    <img src="/Icons/Search icon.png" alt="search icon">
                     Search
                 </a>
             </div>
@@ -79,6 +87,6 @@
 
         </footer>
     </div>
-    <script src="script.js"></script>
+    
   </body>
 </html>
