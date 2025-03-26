@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-
-<html lang="en-US">
-
+<html>
     <head>
-        <title>OLAC - <Search></Search></title>
+        <title>OLAC - Search</title>
         <meta charset="UTF-8">
         <meta name="description" content="[DESCRIPTION]">
         <meta name="author" content="[AUTHOR]">
@@ -11,12 +9,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--Import the "Outfit" font from Google fonts-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap">
-        <link rel="stylesheet" href="/styles/style.css">
+        <link rel="stylesheet" href="styles/style.css">
     </head>
 
     
     <body class="search_page">
 
+        <!--Create the header and the navigation bar-->
         <header>
 
             <div class="logo">
@@ -24,28 +23,43 @@
             </div>
             <div class="navigation-bar">
                 <a href="/index.html">Home</a>
-                <a href="/news.html">News</a>
+                <a href="news.html">News</a>
                 <a href="/events.html">Events</a>
-                <a href="/archives.html">Archives</a>
+                <a href="archives.html">Archives</a>
                 <a href="/about.html">About</a>
             
                 <a class="search-navbar active" href="/">
-                    <img src="/Icons/Search icon.png" alt="search icon">
+                    <img src="images/search-icon.png" alt="search icon">
                     Search
                 </a>
             </div>
-        
+
         </header>
 
+      <!-- Main Content -->
+        <main class="search-container">
+            <h1 class="search-title">Search Language Archive</h1>
 
-        <div class="main-content">
-                
+            <div class="filter-options">
+                <div>Search options</div>
+                <img class="plus" src="images/plus.svg" alt="Add filter">
+            </div>
+
+            <div class="search-field">
+                <img class="icon-art" src="images/search-icon.png" alt="Search icon">
+                <input type="text" id="searchInput" class="search-input" placeholder="Search Language, Document, Resource...">
+            </div>
 
 
-        </div>
+            <div class="example-container">
+                <p>See an example of a Language entry model:</p>
+                <a href="/language-entry.html">
+                <button class="BUTTON">Language Entry</button>
+                </a>
+            </div>
+        </main>
 
-
-        <footer class="footer-homepage">
+      <footer class="footer-homepage">
 
             <div class="footer-main-content">
                 <div class="footer-documents">
@@ -72,7 +86,7 @@
             </div>
 
         </footer>
+    </div>
 
-    </body>
-
+  </body>
 </html>
