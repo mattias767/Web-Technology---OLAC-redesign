@@ -547,3 +547,10 @@ p.author-text {
 .record-container .text-box h2 {
     margin-bottom: 0;
 }
+
+.online-indicator {
+    padding: 3px;
+    background-color: #2a8a05;
+    border-radius: 10px;
+    color: #052e0f
+}
