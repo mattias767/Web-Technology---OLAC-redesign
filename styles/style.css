@@ -500,7 +500,7 @@ p.author-text {
   position: absolute;
   width: 284px;
   height: 43px;
-  top: 400px;
+  top: 520px;
   left: 1000px;
   background-color: #808080;
   border-radius: 5px;
@@ -556,8 +556,8 @@ p.author-text {
   position: absolute;
   width: 284px;
   height: 43px;
-  top: 475px;
-  left: 1000px;
+  top: 450px;
+  left: 995px;
   background-color: #808080;
   border-radius: 5px;
   overflow: hidden;
