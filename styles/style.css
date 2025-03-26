@@ -34,6 +34,7 @@ header {
     flex-shrink: 0;
     background: var(--header-background);
     backdrop-filter: blur(7.5px);
+    z-index: 10;
 }
 
 header .logo a:link {
@@ -276,6 +277,15 @@ p.author-text {
     text-underline-position: auto;
 }
 
+blockquote.coverage {
+    margin: 20px 0 20px 40px;
+    color: var(--text-color);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: normal;
+    hanging-punctuation: first;
+}
+
 
 /* Begin styling for the individual pages */
 .normal-container {
@@ -287,8 +297,6 @@ p.author-text {
     height: auto;
 }
 
-/* TODO: add @media */
-
 .wide-container {
     display: flex;
     flex-direction: row;
@@ -296,6 +304,16 @@ p.author-text {
     margin: auto;
     justify-content: center;
     align-items: center;
+    height: auto;
+}
+
+.wide-container-align-start {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    align-items: flex-start;
     height: auto;
 }
 
@@ -403,6 +421,7 @@ p.author-text {
 .flr-search-bar::placeholder {
     color: var(--text-color);
     opacity: 0.9;
+    z-index: 1;
 }
 
 .flr-select-menu {
@@ -489,6 +508,90 @@ p.author-text {
 }
 
 
+.event-pres-news-items-homepage {
+    margin-bottom: 18px;
+}
+
+.see-more-button {
+    padding: 6px 12px;
+    font-size: 20px;
+    color: var(--text-color);
+    background-color: #0080C0;
+    border: none;
+    border-radius: 10px;
+    font-family: "Outfit";
+}
+
+#button-coverage {
+    margin-top: 30px;
+}
+
+#join-olac-community {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 436px;
+    border: none;
+    border-radius: 75px;
+    background: var(--big-text-box-background);
+}
+
+.join-olac-text {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#join-olac-subtitle {
+    text-align: center;
+}
+
+.sign-up-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 25px auto;
+    width: 60%;
+    height: 79px;
+    border-radius: 75px;
+    background: #2470FF;
+}
+
+.inner-box-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 9px 10px;
+    width: 100%;
+    background-color: #FFF;
+    border: none;
+    border-radius: 75px;
+}
+
+.email-text-box {
+    padding: 15px 0 15px 37px;
+    width: 100%;
+    border: none;
+    background: none;
+}
+
+.submit-email {
+    display: flex;
+    height: 49px;
+    margin: 6px 7px;
+    padding: 8px 46px 9px 46px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: "Outfit";
+    color: var(--text-color);
+    border-radius: 75px;
+    background: #2470FF;
+    border: none;
+}
+
+
 /* Styling News page */
 .news {
     width: 80%;
@@ -541,6 +644,7 @@ p.author-text {
     cursor: pointer;
     margin-right: 10px;
     padding: 6px 14px;
+    font-family: "Outfit";
     font-size: 18px;
     color: var(--text-color);
     border: none;
