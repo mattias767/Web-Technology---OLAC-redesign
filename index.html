@@ -12,6 +12,7 @@
         <!--Import the "Outfit" font from Google fonts-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap">
         <link rel="stylesheet" href="/styles/style.css">
+        <script defer type="text/javascript" src="/Scripts/selectmenu_script.js"></script>
     </head>
 
 
@@ -62,12 +63,86 @@
                     <h1>Find Language Resources</h1>
                     <div class="flr-search-bar-holder">
                         <button type="submit" class="flr-search-icon"></button>
-                        <input type="text" class="flr-search-bar" placeholder="find language resource" name="find language resources"/>
+                        <input type="text" class="flr-search-bar" placeholder="find language resource" name="find-language-resources"/>
                     </div>
-                    <div class="flr-dropdown">
-                        
+                    <div class="flr-select-menu">
+                        <p>Archive:</p>
+                        <div class="select-archive-homepage">
+                            <select class="select-menu-archive-homepage">
+                                <option value="Select archive">Select archive</option>
+                                <option value="All archives">All archives</option>
+                                <option value="apics-online.info" title="APiCS Online">APiCS Online</option>
+                                <option value="aseda.aiatsis.gov.au" title="Aboriginal Studies Electronic Data Archive (ASEDA)">Aboriginal Studies Electronic Data Archive (ASEDA)</option>
+                                <option value="sinica.edu.tw" title="Academia Sinica Collections">Academia Sinica Collections</option>
+                                <option value="afbo.info" title="AfBo: A world-wide survey of affix borrowing">AfBo: A world-wide survey of affix borrowing</option>
+                                <option value="alma.sr.language-archives.org" title="African Language Materials Archive">African Language Materials Archive</option>
+                                <option value="anla.uaf.edu" title="Alaska Native Language Archive">Alaska Native Language Archive</option>
+                                <option value="ailla.utexas.org" title="Archive of the Indigenous Languages of Latin America (AILLA)">Archive of the Indigenous Languages of Latin America (AILLA)</option>
+                                <option value="bas.phonetik.uni-muenchen.de" title="BAS Repository">BAS Repository</option>
+                                <option value="ahtnaheritagefoundation.com" title="C'ek'aedi Hwnax Ahtna Regional Linguistic and Ethnographic Archive">C'ek'aedi Hwnax Ahtna Regional Linguistic and Ethnographic Archive</option>
+                                <option value="childes.talkbank.org" title="CHILDES Data repository">CHILDES Data repository</option>
+                                <option value="crdo.vjf.cnrs.fr" title="COllections de COrpus Oraux Numeriques (CoCoON ex-CRDO)">COllections de COrpus Oraux Numeriques (CoCoON ex-CRDO)</option>
+                                <option value="cla.berkeley.edu" title="California Language Archive">California Language Archive</option>
+                                <option value="ciil.sr.language-archives.org" title="Central Institute of Indian Languages: Publications">Central Institute of Indian Languages: Publications</option>
+                                <option value="CoCoSP.linguistlist.org" title="Comparative Corpus of Spoken Portuguese">Comparative Corpus of Spoken Portuguese</option>
+                                <option value="crubadan.org" title="The Crúbadán Project">The Crúbadán Project</option>
+                                <option value="dictionaria.clld.org" title="Dictionaria">Dictionaria</option>
+                                <option value="acl.sr.language-archives.org" title="A Digital Archive of Research Papers in Computational Linguistics">A Digital Archive of Research Papers in Computational Linguistics</option>
+                                <option value="catalogue.elra.info" title="ELRA Catalogue of Language Resources">ELRA Catalogue of Language Resources</option>
+                                <option value="soas.ac.uk" title="Endangered Languages Archive">Endangered Languages Archive</option>
+                                <option value="ethnologue.com" title="Ethnologue: Languages of the World">Ethnologue: Languages of the World</option>
+                                <option value="clarin.eurac.edu" title="Eurac Research CLARIN Centre">Eurac Research CLARIN Centre</option>
+                                <option value="glottolog.org" title="Glottolog 5.1">Glottolog 5.1</option>
+                                <option value="gial.edu" title="Graduate Institute of Applied Linguistics Library">Graduate Institute of Applied Linguistics Library</option>
+                                <option value="dspace-clarin-it.ilc.cnr.it" title="ILC-CNR for CLARIN-IT repository hosted at Institute for Computational Linguistics &quot;A. Zampolli&quot;, National Research Council, in Pisa">ILC-CNR for CLARIN-IT repository hosted at Institute for Computational Linguistics &quot;A. Zampolli&quot;, National Research Council, in Pisa</option>
+                                <option value="iula.upf.edu" title="IULA UPF OAI Archive">IULA UPF OAI Archive</option>
+                                <option value="indigenousguide.amphilsoc.org" title="Indigenous Materials at the American Philosophical Society">Indigenous Materials at the American Philosophical Society</option>
+                                <option value="scholarspace.manoa.hawaii.edu" title="Kaipuleohone">Kaipuleohone</option>
+                                <option value="www.lapsyd.ddl.ish-lyon.cnrs.fr" title="LAPSyD">LAPSyD</option>
+                                <option value="www.ldc.upenn.edu" title="The LDC Corpus Catalog">The LDC Corpus Catalog</option>
+                                <option value="lindat.mff.cuni.cz" title="LINDAT/CLARIAH-CZ digital library at the Institute of Formal and Applied Linguistics (ÚFAL), Faculty of Mathematics and Physics, Charles University">LINDAT/CLARIAH-CZ digital library at the Institute of Formal and Applied Linguistics (ÚFAL), Faculty of Mathematics and Physics, Charles University</option>
+                                <option value="linguistlist.org" title="The LINGUIST List Language Resources">The LINGUIST List Language Resources</option>
+                                <option value="www.mpi.nl" title="The Language Archive">The Language Archive</option>
+                                <option value="languagecommons.org" title="Language Commons Language Corpora">Language Commons Language Corpora</option>
+                                <option value="ldc.scholarspace.manoa.hawaii.edu" title="Language Documentation and Conservation">Language Documentation and Conservation</option>
+                                <option value="tekstlab.uio.no" title="Language resources at the Text Laboratory">Language resources at the Text Laboratory</option>
+                                <option value="espace.cdu.edu.au" title="Living Archive of Aboriginal Languages">Living Archive of Aboriginal Languages</option>
+                                <option value="mbcarrom.linguistlist.org" title="Magoria Books' Carib and Romani Archive">Magoria Books' Carib and Romani Archive</option>
+                                <option value="mulce.org" title="Multimodal Learning and teaching Corpora Exchange">Multimodal Learning and teaching Corpora Exchange</option>
+                                <option value="dfki.de" title="The Natural Language Software Registry">The Natural Language Software Registry</option>
+                                <option value="odin.csufresno.edu" title="ODIN - The Online Database of Interlinear Text">ODIN - The Online Database of Interlinear Text</option>
+                                <option value="ota.ahds.ac.uk" title="Oxford Text Archive">Oxford Text Archive</option>
+                                <option value="phoible.org" title="PHOIBLE 2.0">PHOIBLE 2.0</option>
+                                <option value="pollex.org.nz" title="POLLEX-Online">POLLEX-Online</option>
+                                <option value="paradisec.org.au" title="Pacific And Regional Archive for Digital Sources in Endangered Cultures (PARADISEC)">Pacific And Regional Archive for Digital Sources in Endangered Cultures (PARADISEC)</option>
+                                <option value="pacific.library.manoa.hawaii.edu" title="Pacific Collection at the University of Hawai'i at M?noa Hamilton Library">Pacific Collection at the University of Hawai'i at M?noa Hamilton Library</option>
+                                <option value="rosettaproject.org" title="The Rosetta Project: A Long Now Foundation Library of Human Language">The Rosetta Project: A Long Now Foundation Library of Human Language</option>
+                                <option value="sails.clld.org" title="SAILS Online">SAILS Online</option>
+                                <option value="sil.org" title="SIL International">SIL International</option>
+                                <option value="compendium.lr.sign-lang.uni-hamburg.de" title="The Sign Language Dataset Compendium">The Sign Language Dataset Compendium</option>
+                                <option value="clarin.si" title="Slovenian language resource repository CLARIN.SI">Slovenian language resource repositository CLARIN.SI</option>
+                                <option value="ncslaap.lib.ncsu.edu" title="The Sociolinguistic Archive and Analysis Project (SLAAP)">The Sociolinguistic Archive and Analysis Project (SLAAP)</option>
+                                <option value="sldr.org" title="Speech and Language Data Repository (SLDR/ORTOLANG)">Speech and Language Data Repository (SLDR/ORTOLANG)</option>
+                                <option value="surrey.smg.surrey.ac.uk" title="Surrey Morphology Group Databases">Surrey Morphology Group Databases</option>
+                                <option value="talkbank.org" title="TALKBANK Data repository">TALKBANK Data repository</option>
+                                <option value="tst-centrale.org" title="TST-Centrale">TST-Centrale</option>
+                                <option value="prometheus-unarchiver.aa-ken.jp" title="TUFS Prometheus Unarchiver">TUFS Prometheus Unarchiver</option>
+                                <option value="THDL.virginia.edu" title="Tibetan and Himalayan Digital Library">Tibetan and Himalayan Digital Library</option>
+                                <option value="TDProject.sr.language-archives.org" title="The Typological Database Project">The Typological Database Project</option>
+                                <option value="langdoc.uni-bielefeld.de" title="U Bielefeld Language Archive">U Bielefeld Language Archive</option>
+                                <option value="wals.info" title="WALS Online">WALS Online</option>
+                                <option value="refdb.wals.info" title="WALS Online RefDB">WALS Online RefDB</option>
+                                <option value="wold.clld.org" title="WOLD">WOLD</option>
+                                <option value="webonary.org" title="Webonary Sites">Webonary Sites</option>
+                                <option value="TransNewGuinea.org" title="transnewguinea.org">transnewguinea.org</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="wide-container">
+
             </div>
 
         </div>
