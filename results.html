@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OLAC Search Results</title>
-    <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
-    <div class="website-container">
-        <!-- Header with visible search icon -->
+    <head>
+        <title>OLAC - Homepage</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Redesigned OLAC homepage">
+        <meta name="author" content="[author]">
+        <meta name="theme-color" content="#001380">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Import the "Outfit" font from Google fonts-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap">
+        <link rel="stylesheet" href="/styles/style.css">
+    </head>
+
+
+    <body class="home_page">
+
+        <!--Create the header and the navigation bar-->
         <header>
+
             <div class="logo">
-                <a href="search.html">OLAC</a>
+                <a href="/">OLAC</a>
             </div>
             <div class="navigation-bar">
                 <a href="/index.html">Home</a>
-                <a class="active" href="/">News</a>
+                <a href="/news.html">News</a>
                 <a href="/events.html">Events</a>
-                <a href="archives.html">Archives</a>
+                <a href="/archives.html">Archives</a>
                 <a href="/about.html">About</a>
-
-                <a class="search-navbar" href="search.html">
-                    <img src="images/search-icon.png" alt="search icon">
+            
+                <a class="search-navbar" href="/search.html">
+                    <img src="/Icons/Search icon.png" alt="search icon">
                     Search
                 </a>
             </div>
@@ -35,13 +43,13 @@
                 <h1 class="search-title">Search Language Archive</h1>
 
                 <div class="search-field">
-                    <img class="icon-art" src="images/search-icon.png" alt="Search icon">
+                    <img class="icon-art" src="Icons/search-icon.png" alt="Search">
                     <input type="text" id="searchInput" class="search-input" placeholder="Search Language, Document, Resource...">
                 </div>
 
                 <div class="filter-result-options">
                     <div>Filter results</div>
-                    <img class="plus" src="images/plus.svg" alt="Add filter">
+                    <img class="plus" src="Icons/plus.svg" alt="Add filter">
                 </div>
             </div>
 
