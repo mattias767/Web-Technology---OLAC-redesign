@@ -370,6 +370,8 @@ p.author-text {
 
 .flr-search-icon {
     cursor: pointer;
+    justify-self: flex-start;
+    margin: auto auto auto 25px;
     width: 50px;
     height: 50px;
     border: none;
@@ -379,13 +381,15 @@ p.author-text {
 
 .flr-search-bar {
     margin: 15px;
+    justify-self: flex-end;
     padding-left: 25px;
-    width: 75%;
+    width: 80%;
     height: 51px;
     background: #9A9A9A;
     border: none;
     border-radius: 65px;
     font-size: 28px;
+    color: var(--text-color);
 }
 
 .flr-search-bar::placeholder {
