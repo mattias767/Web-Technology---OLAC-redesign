@@ -287,7 +287,8 @@ blockquote.coverage {
 }
 
 
-/* Begin styling for the individual pages */
+/* Set standard styling for containers and text boxes for
+    for consistency across pages */
 .normal-container {
     display: flex;
     flex-direction: row;
@@ -358,6 +359,7 @@ blockquote.coverage {
 
 
 /* Styling Home page */
+/* Homepage hero section */
 .hero-section {
     margin: 220px auto 80px auto;
 }
@@ -376,6 +378,7 @@ blockquote.coverage {
     background: url(/images/world-color-320.png) #d3d3d3 50% / cover no-repeat;
 }
 
+/* Homepage: find language resources box */
 #find-language-resources {
     height: 321px;
 }
@@ -438,6 +441,7 @@ blockquote.coverage {
     margin-right: 10px;
 }
 
+/* Homepage: select menu */
 .select-archive-homepage select {
     position: relative;
     left: 0;
@@ -452,7 +456,6 @@ blockquote.coverage {
     font-size: 20px;
     border: none;
     border-radius: 40px;
-
 }
 
 .select-selected {
@@ -507,7 +510,7 @@ blockquote.coverage {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-
+/* Homepage: events, presentations, news and coverage */
 .event-pres-news-items-homepage {
     margin-bottom: 18px;
 }
@@ -526,6 +529,7 @@ blockquote.coverage {
     margin-top: 30px;
 }
 
+/* Homepage: Join OLAC Community */
 #join-olac-community {
     display: flex;
     flex-direction: column;
