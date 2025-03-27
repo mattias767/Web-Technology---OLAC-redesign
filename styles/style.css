@@ -493,14 +493,14 @@ blockquote.coverage {
 }
   
 .select-items {
-    position: relative;
-    width: 250px;
+    position: absolute;
+    width: 284px;
     height: 500px;
     overflow-y: scroll;
     background-color: #fff;
-    top: 250px;
-    left: 15px;
-    z-index: 99;
+    top: calc(100%+0); /* Only aligns correctly with calc(100%+0), 100% does not work */
+    z-index: 8;
+    border-radius: 25px;
 }
   
 .select-hide {
