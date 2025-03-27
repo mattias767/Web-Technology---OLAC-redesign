@@ -459,6 +459,7 @@ blockquote.coverage {
 }
 
 .select-selected {
+    position: static;
     background-color: #fff;
     width: 250px;
     border-radius: 40px;
