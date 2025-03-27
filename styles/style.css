@@ -366,7 +366,7 @@ blockquote.coverage {
 
 #hero-image-library {
     height: 400px;
-    background: url(/Web-Technology---OLAC-redesign/images/library-picture/1722.jpg) #d3d3d3 50% / cover no-repeat;
+    background: url(images/library-picture/1722.jpg) #d3d3d3 50% / cover no-repeat;
 }
 
 #hero-section-text {
@@ -375,7 +375,7 @@ blockquote.coverage {
 
 #image-world-map {
     min-height: 321px;
-    background: url(/Web-Technology---OLAC-redesign/images/world-color-320.png) #d3d3d3 50% / cover no-repeat;
+    background: url(images/world-color-320.png) #d3d3d3 50% / cover no-repeat;
 }
 
 /* Homepage: find language resources box */
@@ -405,7 +405,7 @@ blockquote.coverage {
     height: 50px;
     border: none;
     aspect-ratio: 1/1;
-    background: url(/Web-Technology---OLAC-redesign/Icons/Search_icon_50x50.png) transparent 50% / cover no-repeat;
+    background: url(Icons/Search_icon_50x50.png) transparent 50% / cover no-repeat;
 }
 
 .flr-search-bar {
